@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    color: coral;
+}
+section{
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    align-items: center;
+}
+section.h2{
+    font-size: 50px;
+    font-weight: 500px;
+    margin-bottom: 15px;
+}
+section a{
+    display: inline-block;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background: #fff;
+}
+section img{
+    height: 60%;
+}
+
+section:nth-child(2){
+    background-image: linear-gradient(to top, #fdcbf1 50%, #fdcbf1 1%, #e6dee9 100%);
+}
+section:nth-child(1){
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+section:nth-child(3){
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+
+
+
+*/  <div id="c1">
+<button>
+<a href="catalogo.html" target="_blank"></a>Ver catalogo</button>
+</div>
